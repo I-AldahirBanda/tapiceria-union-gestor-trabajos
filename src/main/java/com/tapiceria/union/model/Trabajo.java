@@ -20,6 +20,11 @@ public class Trabajo {
     public String getTipoMueble() { return tipoMueble; }
     public String getFechaEntrega() { return fechaEntrega; }
     public String getEstado() { return estado; }
-
     public void setEstado(String estado) { this.estado = estado; }
+
+    @Override
+    public String toString() {
+        return String.format("#%d | %s | %s | %s | %s",
+                id, cliente, tipoMueble, fechaEntrega, estado);
+    }
 }
