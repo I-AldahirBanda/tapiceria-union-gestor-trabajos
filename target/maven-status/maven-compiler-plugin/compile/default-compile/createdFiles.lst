@@ -1,2 +1,3 @@
 com\tapiceria\union\Main.class
 com\tapiceria\union\model\Trabajo.class
+com\tapiceria\union\persistence\StorageCsv.class
